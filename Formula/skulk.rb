@@ -1,24 +1,24 @@
 class Skulk < Formula
   desc "Manage remote Claude Code agents over SSH with tmux and git worktrees"
   homepage "https://github.com/frantufro/skulk"
-  version "0.4.2"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/frantufro/skulk/releases/download/v0.4.2/skulk-aarch64-apple-darwin.tar.gz"
-      sha256 "c087690cb33f652267f9fb7c7612b20af191dd9abaa18f2abede77d2717e3bca"
+      url "https://github.com/frantufro/skulk/releases/download/v0.5.0/skulk-aarch64-apple-darwin.tar.gz"
+      sha256 "7df79bc60ed44a646ae18ffa24a788672977afff6d5017449cf5a6981f5f1b05"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/frantufro/skulk/releases/download/v0.4.2/skulk-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6018fde1da31b3094ea643b0cf4ca6735a9f02c85f5e259ac486079505d9c446"
+      url "https://github.com/frantufro/skulk/releases/download/v0.5.0/skulk-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e443e68750c052321dfcb53160dbc037c325c7e1ffa6e858e1aa41a6bc5c0e4e"
     end
     on_arm do
-      url "https://github.com/frantufro/skulk/releases/download/v0.4.2/skulk-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f0a919aad4f29723b153db61585ed43805a4bb154a32a37c7b4247b1e9fc14f3"
+      url "https://github.com/frantufro/skulk/releases/download/v0.5.0/skulk-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a101f178e44ab7ec1a22350d573d64ab7f3b4962ebd43839d950117644ffee39"
     end
   end
 
