@@ -1,24 +1,24 @@
 class Husmo < Formula
   desc "Local-first, git-backed document/link database with a Rust MCP server"
   homepage "https://github.com/frantufro/husmo"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/frantufro/husmo/releases/download/v0.1.1/husmo-aarch64-apple-darwin.tar.gz"
-      sha256 "716d03e02bf0867865065c04b2dfd1d5ad4477745d0e1890c45168db10c01d11"
+      url "https://github.com/frantufro/husmo/releases/download/v0.1.2/husmo-aarch64-apple-darwin.tar.gz"
+      sha256 "aca40952d3f432ab906b04c3a7fb0e6a05d5c6a6fc8e5e12a4e9c772a9e9adf8"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/frantufro/husmo/releases/download/v0.1.1/husmo-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8176d82c13b3dcaae74e2a6708c5e5a557e5649fef7fde5686df4fe814f41a0c"
+      url "https://github.com/frantufro/husmo/releases/download/v0.1.2/husmo-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "cde9c5cffdad78537b9e5adacc081a732621ca7cacd48db4352c7a23ebfd4b2a"
     end
     on_arm do
-      url "https://github.com/frantufro/husmo/releases/download/v0.1.1/husmo-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "379ee8e5123bb9ade4976a26d38359959946eeb8a6bfb687801b67337c0fcdb9"
+      url "https://github.com/frantufro/husmo/releases/download/v0.1.2/husmo-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "4011fac6cfe03cf45331982cc98d05477aab95b8ec03007035e69911fbe2925d"
     end
   end
 
