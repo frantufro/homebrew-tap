@@ -1,24 +1,24 @@
 class Cubil < Formula
   desc "Markdown-based task management CLI — companion to Skulk"
   homepage "https://github.com/frantufro/cubil"
-  version "0.1.6"
+  version "0.1.7"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/frantufro/cubil/releases/download/v0.1.6/cubil-aarch64-apple-darwin.tar.gz"
-      sha256 "ff73a3dee5ca81361e14ab7464f69d81f39fa06979e4b84eea6cecbec423b37e"
+      url "https://github.com/frantufro/cubil/releases/download/v0.1.7/cubil-aarch64-apple-darwin.tar.gz"
+      sha256 "ed86de7ba401e92fe9afc2ed2d06e8dae5a297f39cb619fee54dd241387bffb8"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/frantufro/cubil/releases/download/v0.1.6/cubil-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "550eadc08d67ad5e54637a48270c8baa74e8c13c45dc84a822b4857109e85ffa"
+      url "https://github.com/frantufro/cubil/releases/download/v0.1.7/cubil-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "132311b3624bc868ab3db6b3e02f22f97ee0a9b22d8750d25fae86392c12fd83"
     end
     on_arm do
-      url "https://github.com/frantufro/cubil/releases/download/v0.1.6/cubil-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f59deef24d089105d0590f10fa918c05e0a3195264ae48706509c71c13b33a9f"
+      url "https://github.com/frantufro/cubil/releases/download/v0.1.7/cubil-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "189424df397c79e57348d07451cfc838c317a1ae903019d4d408ef90d24e0639"
     end
   end
 
